@@ -1,0 +1,152 @@
+.ultimate-wrapper {
+    width: 90%;
+}
+
+.ultimate-form-submit-box {
+    padding: 5px 0;
+    text-align: right;
+}
+
+.ultimate-tabs {
+    display: table;
+    width: 100%;
+}
+
+.ultimate-tab-content .wp-picker-container {
+    display: inline-block;
+}
+
+.ultimate-content-page {
+    margin: -6px -12px -12px;
+}
+
+.ultimate-content-page .ultimate-tabs {
+    width: 100%;
+}
+
+.ultimate-tab-nav {
+    width: 20%;
+    display: table-cell;
+    vertical-align: top;
+    background: #0073aa;
+}
+
+.ultimate-content-page .ultimate-tab-content {
+    border: none;
+}
+
+#poststuff .ultimate-content-page .ultimate-tab-content h2{
+    padding: 0 0 12px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #cccccc;
+}
+
+.ultimate-editor {
+    width: 70%;
+    display: inline-block;
+}
+
+.ultimate-tab-nav li {
+    margin: 0;
+}
+
+.ultimate-tab-nav a {
+    padding: 10px 4%;
+    width: 92%;
+    display: block;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(32, 109, 146, 0.73);
+}
+
+.ultimate-tab-nav a.active-tab {
+    background: #176E98;
+}
+
+.ultimate-tab-nav a:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ultimate-tab-content {
+    /*width: 74%;*/
+    display: table-cell;
+    padding: 10px 2%;
+    background: #ffffff;
+    margin-top: 13px;
+    border: 1px solid #E2E2E2;
+    border-left: none;
+}
+
+.form-item {
+    margin: 5px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.form-item label {
+    font-size: 1.1em;
+    width: 20%;
+    display: inline-block;
+}
+
+.ultimate-content-page .form-item label {
+    /*width: 30%;*/
+    font-size: 13px;
+}
+
+.ultimate-input-desc label {
+    width: auto;
+}
+
+input[type=text].ultimate-input,
+select.ultimate-input {
+    width: 300px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 8px;
+}
+
+input[type=text].ultimate-input.sm,
+select.ultimate-input.sm {
+    width: 50px;
+}
+
+.ultimate-input-desc {
+    font-style: italic;
+    color: #AFAFAF;
+    margin-left: 10px;
+    float: right;
+    margin-right: 10px;
+}
+
+.ultimate-input-media {
+    width: 236px !important;
+}
+
+.us-toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.us-toast {
+    padding: 16px;
+    background: #2f8c08;
+    min-width: 230px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.us-toast-error {
+    background: #d20505;
+}
+
+.ultimate-error {
+    font-weight: bold;
+    color: #f20000;
+}
